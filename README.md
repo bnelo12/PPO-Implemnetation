@@ -22,3 +22,5 @@ Solved!
 ```
 
 Solved here is defined as 25 episodes in a row wih a score of 500.0.
+
+Dependencies needed are numpy, tensorflow, and gym which can be installed via pip. To run: `python PPO.py`.
