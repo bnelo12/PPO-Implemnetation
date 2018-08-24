@@ -188,7 +188,6 @@ class PPO():
                     ep_states = []
                     running_reward.append(score)
                     if episode % 25 == 0:
-                        print([(vs[i], targets[i]) for i in range(len(vs))])
                         avg_score = np.mean(running_reward[-25:])
                         print("Episode: " + str(episode) + " Score: " + str(avg_score))
                         if avg_score >= 500:
