@@ -1,4 +1,4 @@
-# PPO-Implemnetation
+# PPO-Implementation
 This is an implementation of PPO for CartPole-v1 from the OpenAI gym enviorment. The algorithm used is based off these papers: [*High-Dimensional Continuous Control Using Generalized Advantage Estimation*](https://arxiv.org/abs/1506.02438) and [*Proximal Policy Optimization Algorithms*](https://arxiv.org/abs/1707.06347).
 
 
